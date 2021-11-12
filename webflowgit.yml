@@ -1,5 +1,5 @@
-# site: https://www.example.com
-# pages: false
+site: https://grid0.webflow.io
+pages: true
 # OR
 # pages:
 #   ignore:
