@@ -1,6 +1,7 @@
 name: webflow-git
 
 on:
+  repository_dispatch:
   workflow_dispatch:
     inputs:
       force:
@@ -9,7 +10,7 @@ on:
         default: ''
   schedule:
     - cron:  '5 * * * *'
-  
+permissions: read-all|write-all
 
 jobs:
   track:
